@@ -31,11 +31,7 @@ public class ProductController {
         return ResponseEntity.ok(product);
     }
 
-//    @GetMapping("/products/{category}")
-//    public ResponseEntity<Product> getProductsByCategory(@PathVariable String category) {
-//      Product product = productRepository.findByCategory(category);
-//       return ResponseEntity.ok(product);
-//   }
+
 
 
 }
