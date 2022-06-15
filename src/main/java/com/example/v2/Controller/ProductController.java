@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v2")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://ecommerce-app-s0570716-front.herokuapp.com/")
 public class ProductController {
 
     @Autowired
